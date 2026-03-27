@@ -1,34 +1,37 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+import type { Metadata } from 'next'
+import './globals.css'
 
 export const metadata: Metadata = {
-  title: "PSI Technologies",
-  description: "PSI Technologies is a leading provider of innovative software solutions, specializing in web, desktop and mobile applications and AI/ML driven solutions.",
-};
+  title: 'Aadi Shakti Nirman Sewa Pvt. Ltd. | Construction Excellence in Nepal',
+  description:
+    'Aadi Shakti Nirman Sewa Pvt. Ltd. is a premier construction company in Nepal, specializing in Government of Nepal tenders — roads, bridges, buildings, and infrastructure.',
+  keywords: [
+    'construction company Nepal',
+    'government tender Nepal',
+    'infrastructure Nepal',
+    'road construction Nepal',
+    'building contractor Kathmandu',
+    'Aadi Shakti Nirman',
+  ],
+  authors: [{ name: 'Aadi Shakti Nirman Sewa Pvt. Ltd.' }],
+  openGraph: {
+    title: 'Aadi Shakti Nirman Sewa Pvt. Ltd.',
+    description: "Building Nepal's Future — Precision. Integrity. Excellence.",
+    type: 'website',
+    locale: 'en_NP',
+  },
+}
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className="noise">
         {children}
       </body>
     </html>
-  );
+  )
 }

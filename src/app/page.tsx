@@ -1,23 +1,27 @@
-import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import Works from "@/components/Works";
-import Clients from "@/components/Clients";
-import Testimonials from "@/components/Testimonials";
-import Contact from "@/components/Contact";
-import Footer from "@/components/Footer";
+"use client";
+
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Services from "./components/Services";
+import Projects from "./components/Projects";
+import Certifications from "./components/Certifications";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col">
-      <Header />
-      <main className="flex-1">
+    <>
+      <Navbar />
+      <main>
         <Hero />
-        <Works />
-        <Clients />
-        <Testimonials />
+        <About />
+        <Services />
+        <Projects />
+        <Certifications />
         <Contact />
       </main>
       <Footer />
-    </div>
+    </>
   );
 }

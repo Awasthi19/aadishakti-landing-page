@@ -1,8 +1,7 @@
 import axios from "axios";
 
 // Define and export the base URL
-export const baseURL = "https://api.psinepal.com.np";
-// export const baseURL = "http://localhost:8081";
+export const baseURL = "https://api.aadishaktins.com.np";
 
 const axiosClient = axios.create({
   baseURL,
@@ -30,7 +29,7 @@ axiosClient.interceptors.response.use(
   (error) => {
     console.error("API error:", error.response?.data || error.message);
     return Promise.reject(error);
-  }
+  },
 );
 
 export default axiosClient;
