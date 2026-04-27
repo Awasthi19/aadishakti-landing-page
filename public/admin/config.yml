@@ -1,0 +1,154 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Decap CMS config — Aadi Shakti Nirman Sewa
+#
+# SETUP STEPS (one-time):
+#   1. Go to github.com → Settings → Developer settings → OAuth Apps → New
+#      - Homepage URL:           https://YOUR_GITHUB_USERNAME.github.io
+#      - Authorization callback: https://YOUR_GITHUB_USERNAME.github.io
+#   2. Replace the two placeholders below with your values.
+#   3. Push to GitHub. GitHub Actions will deploy the site.
+#   4. Visit yoursite.com/admin to log in with GitHub.
+# ─────────────────────────────────────────────────────────────────────────────
+
+backend:
+  name: github
+  repo: Awasthi19/aadishakti-landing-page     
+  branch: main
+  auth_type: pkce
+  app_id: Ov23liZ3VjOiwOhHafD5
+
+media_folder: public/images
+public_folder: /images
+
+collections:
+  - name: site
+    label: "Site Content"
+    files:
+
+      - label: "Hero Section"
+        name: hero
+        file: "content/site.json"
+        fields:
+          - label: Hero
+            name: hero
+            widget: object
+            fields:
+              - { label: Eyebrow, name: eyebrow, widget: string }
+              - label: Heading Lines
+                name: heading
+                widget: list
+                field: { label: Line, name: line, widget: string }
+              - { label: Paragraph, name: paragraph, widget: text }
+              - label: Stats
+                name: stats
+                widget: list
+                fields:
+                  - { label: Number, name: number, widget: string }
+                  - { label: Label,  name: label,  widget: string }
+              - label: Strip Items
+                name: strip
+                widget: list
+                field: { label: Item, name: item, widget: string }
+          - label: About
+            name: about
+            widget: object
+            fields:
+              - { label: Badge Number, name: badge_number, widget: string }
+              - { label: Badge Label,  name: badge_label,  widget: string }
+              - { label: Paragraph 1,  name: paragraph1,   widget: text }
+              - { label: Paragraph 2,  name: paragraph2,   widget: text }
+              - label: Pillars
+                name: pillars
+                widget: list
+                fields:
+                  - { label: Number,      name: number,      widget: string }
+                  - { label: Title,       name: title,       widget: string }
+                  - { label: Description, name: description, widget: text }
+          - label: Services
+            name: services
+            widget: list
+            fields:
+              - { label: Name,        name: name,        widget: string }
+              - { label: Description, name: description, widget: text }
+              - label: Tags
+                name: tags
+                widget: list
+                field: { label: Tag, name: tag, widget: string }
+          - label: Projects
+            name: projects
+            widget: list
+            fields:
+              - label: Category
+                name: category
+                widget: select
+                options: [roads, bridges, buildings, hydropower]
+              - label: Image Style
+                name: imgClass
+                widget: select
+                options:
+                  - { label: Roads,      value: proj-img-roads    }
+                  - { label: Bridge,     value: proj-img-bridge   }
+                  - { label: Building,   value: proj-img-building }
+                  - { label: Hydropower, value: proj-img-hydro    }
+              - label: Illustration
+                name: svgKey
+                widget: select
+                options:
+                  - { label: Mountain Road,      value: mountain_road      }
+                  - { label: Arch Bridge,        value: arch_bridge        }
+                  - { label: Hospital Building,  value: hospital           }
+                  - { label: Hydro Dam,          value: hydro_dam          }
+                  - { label: Urban Road,         value: urban_road         }
+                  - { label: Suspension Bridge,  value: suspension_bridge  }
+              - label: Status
+                name: status
+                widget: select
+                options:
+                  - { label: Completed, value: done }
+                  - { label: Ongoing,   value: wip  }
+              - { label: Status Label,      name: statusLabel,       widget: string }
+              - { label: Year,              name: year,              widget: string }
+              - { label: Section Label,     name: sectionLabel,      widget: string }
+              - { label: Title,             name: title,             widget: string }
+              - { label: Location,          name: location,          widget: string }
+              - { label: Display Category,  name: displayCategory,   widget: string }
+              - { label: Description,       name: description,       widget: text   }
+              - { label: Contract Value,    name: value,             widget: string }
+              - label: Animate Delay
+                name: delay
+                widget: select
+                options:
+                  - { label: None, value: ""  }
+                  - { label: d1,   value: d1  }
+                  - { label: d2,   value: d2  }
+                  - { label: d3,   value: d3  }
+          - label: Certifications
+            name: certifications
+            widget: list
+            fields:
+              - { label: Badge, name: badge, widget: string }
+              - { label: Name,  name: name,  widget: string }
+              - { label: Org,   name: org,   widget: string }
+              - { label: Since, name: since, widget: string }
+          - label: Clients
+            name: clients
+            widget: list
+            field: { label: Client, name: client, widget: string }
+          - label: Contact
+            name: contact
+            widget: object
+            fields:
+              - { label: Address,      name: address, widget: string }
+              - { label: Phone,        name: phone,   widget: string }
+              - { label: Email,        name: email,   widget: string }
+              - { label: Office Hours, name: hours,   widget: string }
+          - label: Footer
+            name: footer
+            widget: object
+            fields:
+              - { label: Description, name: description, widget: text }
+              - label: Badges
+                name: badges
+                widget: list
+                field: { label: Badge, name: badge, widget: string }
+              - { label: Copyright, name: copyright, widget: string }

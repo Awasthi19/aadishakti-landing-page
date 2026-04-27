@@ -1,0 +1,117 @@
+{
+  "hero": {
+    "eyebrow": "Est. 2006 · Kathmandu, Nepal",
+    "heading": ["Building", "Nepal's", "Future."],
+    "paragraph": "Government-certified contractor specializing in roads, bridges, buildings, and critical infrastructure across Nepal. Precision engineering, delivered on time.",
+    "stats": [
+      { "number": "18+", "label": "Years Experience" },
+      { "number": "120+", "label": "Projects Done" },
+      { "number": "40+", "label": "Govt. Tenders" },
+      { "number": "100%", "label": "On-Time Delivery" }
+    ],
+    "strip": [
+      "Dept. of Roads · GoN Registered",
+      "ISO 9001:2015 Certified",
+      "Class 'A' Licensed Contractor",
+      "40+ Districts Served"
+    ]
+  },
+  "about": {
+    "badge_number": "18+",
+    "badge_label": "Years of proven expertise",
+    "paragraph1": "Founded in 2006, Aadi Shakti Nirman Sewa Pvt. Ltd. has grown from a regional contractor to one of Nepal's most trusted infrastructure builders. We operate with a government-registered class 'A' license, participating in and winning tenders across road construction, bridge fabrication, hydropower civil works, and institutional buildings.",
+    "paragraph2": "Our team of qualified engineers and skilled technicians brings together local knowledge with international construction standards — ensuring every structure we build stands for generations.",
+    "pillars": [
+      { "number": "01", "title": "Precision Engineering", "description": "Every project follows strict engineering standards — from soil analysis to structural integrity, we leave nothing to chance." },
+      { "number": "02", "title": "Integrity First", "description": "Transparent timelines, honest budgets, and zero compromises on material quality. Our reputation is built on trust." },
+      { "number": "03", "title": "Local Expertise", "description": "Deep knowledge of Nepal's terrain, climate, and regulatory frameworks allows us to deliver where others cannot." }
+    ]
+  },
+  "services": [
+    { "name": "Building Construction", "description": "Government offices, schools, hospitals, and institutional structures built to last across Nepal's demanding conditions.", "tags": ["Structural Works", "Foundation Eng.", "Finishing & MEP"] },
+    { "name": "Bridge & Culvert Works", "description": "Single-lane footbridges to multi-span motorable bridges, designed for seismic zones and monsoon conditions.", "tags": ["RCC Bridges", "Steel Truss", "Box Culverts"] },
+    { "name": "Road Construction", "description": "Earthwork, sub-base, and bituminous surfacing for district roads, urban roads, and strategic highways under GoN tender.", "tags": ["Gravel Roads", "Blacktopping", "Earthworks"] },
+    { "name": "Hydropower Civil Works", "description": "Headworks, penstock trenching, powerhouse construction, and access roads for micro and small hydropower projects.", "tags": ["Headworks", "Penstock", "Powerhouse"] },
+    { "name": "Retaining Walls & Drainage", "description": "Slope stabilization, gabion walls, RCC retaining structures, and storm drainage for landslide-prone zones.", "tags": ["Gabion Walls", "RCC Retaining", "Storm Drainage"] },
+    { "name": "Project Management", "description": "End-to-end project supervision, quality control, and contractor management for large government and donor-funded projects.", "tags": ["QA/QC", "Site Supervision", "Reporting"] }
+  ],
+  "projects": [
+    {
+      "category": "roads", "imgClass": "proj-img-roads", "svgKey": "mountain_road",
+      "status": "done", "statusLabel": "Completed", "year": "2023", "sectionLabel": "Roads",
+      "title": "Sindhuli–Bardibas Road Upgrading", "location": "Sindhuli, Bagmati Province",
+      "displayCategory": "Roads · Bagmati Province",
+      "description": "Upgrading 12.6 km of gravel road to bituminous standard including drainage and slope protection works.",
+      "value": "NPR 4.2Cr", "delay": ""
+    },
+    {
+      "category": "bridges", "imgClass": "proj-img-bridge", "svgKey": "arch_bridge",
+      "status": "done", "statusLabel": "Completed", "year": "2022", "sectionLabel": "Bridges",
+      "title": "Koshi Corridor Bridge, 80m Span", "location": "Okhaldhunga District",
+      "displayCategory": "Bridges · Koshi Zone",
+      "description": "Double-lane RCC T-girder bridge with approach roads, completed ahead of schedule during monsoon season.",
+      "value": "NPR 6.8Cr", "delay": "d1"
+    },
+    {
+      "category": "buildings", "imgClass": "proj-img-building", "svgKey": "hospital",
+      "status": "done", "statusLabel": "Completed", "year": "2023", "sectionLabel": "Buildings",
+      "title": "District Hospital Complex, Dolakha", "location": "Charikot, Dolakha",
+      "displayCategory": "Buildings · Dolakha",
+      "description": "3-storey RCC hospital building with outpatient, inpatient, and operation theatre facilities under MoHP tender.",
+      "value": "NPR 9.1Cr", "delay": "d2"
+    },
+    {
+      "category": "hydropower", "imgClass": "proj-img-hydro", "svgKey": "hydro_dam",
+      "status": "wip", "statusLabel": "Ongoing", "year": "2024", "sectionLabel": "Hydropower",
+      "title": "Tamakoshi Micro Hydro Civil Works", "location": "Ramechhap District",
+      "displayCategory": "Hydropower · Ramechhap",
+      "description": "Headworks, penstock trench, and powerhouse civil works for 500 kW run-of-river micro hydropower project.",
+      "value": "NPR 3.5Cr", "delay": "d1"
+    },
+    {
+      "category": "roads", "imgClass": "proj-img-roads", "svgKey": "urban_road",
+      "status": "wip", "statusLabel": "Ongoing", "year": "2024", "sectionLabel": "Roads",
+      "title": "Bhaktapur Ring Road Resurfacing", "location": "Bhaktapur Metropolitan City",
+      "displayCategory": "Roads · Bhaktapur",
+      "description": "Full-depth reclamation and asphalt overlay of 8 km urban ring road with curb and gutter rehabilitation.",
+      "value": "NPR 2.8Cr", "delay": "d2"
+    },
+    {
+      "category": "bridges", "imgClass": "proj-img-bridge", "svgKey": "suspension_bridge",
+      "status": "done", "statusLabel": "Completed", "year": "2021", "sectionLabel": "Bridges",
+      "title": "Mechi Zone Footbridge Cluster", "location": "Ilam & Panchthar",
+      "displayCategory": "Bridges · Mechi Zone",
+      "description": "Three 60–80m steel suspension footbridges connecting remote villages to the road network in Mechi zone.",
+      "value": "NPR 1.9Cr", "delay": "d3"
+    }
+  ],
+  "certifications": [
+    { "badge": "GoN/DoR", "name": "Dept. of Roads", "org": "Class \"A\" Registered Contractor", "since": "Since 2006" },
+    { "badge": "ISO", "name": "ISO 9001:2015", "org": "Quality Management System", "since": "Since 2018" },
+    { "badge": "OCR", "name": "Office of Controller", "org": "Revenue Registration", "since": "Since 2006" },
+    { "badge": "PAN", "name": "Tax Registration", "org": "Permanent Account Number", "since": "Since 2006" },
+    { "badge": "FNCCI", "name": "FNCCI Member", "org": "Federation of Commerce", "since": "Since 2010" },
+    { "badge": "ORC", "name": "Company Register", "org": "Private Ltd. Registration", "since": "Since 2006" }
+  ],
+  "clients": [
+    "Dept. of Roads, GoN",
+    "Dept. of Urban Development",
+    "Ministry of Health & Population",
+    "Ministry of Education",
+    "NEA – Nepal Electricity Authority",
+    "AEPC – Alternative Energy",
+    "Local Level Govts.",
+    "Donor-funded INGO Projects"
+  ],
+  "contact": {
+    "address": "Kathmandu Metropolitan City, Bagmati Province, Nepal",
+    "phone": "+977-01-XXXXXXX",
+    "email": "info@aadishakti.com.np",
+    "hours": "Sun – Fri: 9:00 AM – 5:00 PM"
+  },
+  "footer": {
+    "description": "Building Nepal's infrastructure with precision, integrity, and local expertise since 2006.",
+    "badges": ["GoN Registered", "ISO 9001", "Class 'A'"],
+    "copyright": "© 2026 Aadi Shakti Nirman Sewa Pvt. Ltd. All rights reserved."
+  }
+}

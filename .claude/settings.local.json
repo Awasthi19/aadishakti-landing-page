@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p d:/aadishakti-landing-page/aadishakti-landing-page/content)",
+      "Bash(mkdir -p d:/aadishakti-landing-page/aadishakti-landing-page/public/admin)",
+      "Bash(mkdir -p d:/aadishakti-landing-page/aadishakti-landing-page/.github/workflows)",
+      "Bash(npm run *)"
+    ]
+  }
+}

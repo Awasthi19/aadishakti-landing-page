@@ -2,14 +2,15 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Aadi Shakti Nirman Sewa Pvt. Ltd. | Construction Excellence in Nepal',
+  title: 'Aadi Shakti Nirman Sewa Pvt. Ltd. — Building Nepal\'s Future',
   description:
-    'Aadi Shakti Nirman Sewa Pvt. Ltd. is a premier construction company in Nepal, specializing in Government of Nepal tenders — roads, bridges, buildings, and infrastructure.',
+    'Government-certified contractor specialising in roads, bridges, buildings, and critical infrastructure across Nepal. Precision engineering, delivered on time.',
   keywords: [
     'construction company Nepal',
     'government tender Nepal',
     'infrastructure Nepal',
     'road construction Nepal',
+    'bridge construction Nepal',
     'building contractor Kathmandu',
     'Aadi Shakti Nirman',
   ],
@@ -22,16 +23,10 @@ export const metadata: Metadata = {
   },
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="noise">
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   )
 }
