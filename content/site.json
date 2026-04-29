@@ -1,6 +1,25 @@
 {
+  "company": {
+    "name": "Aadi Shakti Nirman Sewa",
+    "nav_subtitle": "Pvt. Ltd. · Est. 2006",
+    "footer_subtitle": "Pvt. Ltd. · Kathmandu, Nepal"
+  },
+  "navigation": [
+    { "id": "about", "label": "About" },
+    { "id": "services", "label": "Services" },
+    { "id": "projects", "label": "Projects" },
+    { "id": "certs", "label": "Certifications" },
+    { "id": "contact", "label": "Contact" }
+  ],
+  "cta": {
+    "work": "Our Work",
+    "quote": "Get a Quote",
+    "quote_arrow": "Get a Quote →",
+    "view_projects": "View Our Projects →",
+    "discuss_project": "Discuss Your Project →"
+  },
   "hero": {
-    "eyebrow": "Est. 2006 · Kathmandu, Nepal",
+    "eyebrow": "Class 'A' Licensed Contractor",
     "heading": ["Building", "Nepal's", "Future."],
     "paragraph": "Government-certified contractor specializing in roads, bridges, buildings, and critical infrastructure across Nepal. Precision engineering, delivered on time.",
     "stats": [
@@ -16,6 +35,13 @@
       "40+ Districts Served"
     ]
   },
+  "filters": {
+    "all": "All",
+    "roads": "Roads",
+    "bridges": "Bridges",
+    "buildings": "Buildings",
+    "hydropower": "Hydropower"
+  },
   "about": {
     "badge_number": "18+",
     "badge_label": "Years of proven expertise",
@@ -26,6 +52,34 @@
       { "number": "02", "title": "Integrity First", "description": "Transparent timelines, honest budgets, and zero compromises on material quality. Our reputation is built on trust." },
       { "number": "03", "title": "Local Expertise", "description": "Deep knowledge of Nepal's terrain, climate, and regulatory frameworks allows us to deliver where others cannot." }
     ]
+  },
+  "section_copy": {
+    "services": {
+      "eyebrow": "What We Do",
+      "title": "Our Core",
+      "highlight": "Services",
+      "paragraph": "Government-registered across all categories. Every service is backed by qualified engineers, certified equipment, and a rigorous QA/QC process."
+    },
+    "projects": {
+      "eyebrow": "Our Work",
+      "title": "Featured",
+      "highlight": "Projects",
+      "summary": "120+ projects delivered across 40+ districts of Nepal.",
+      "value_label": "Contract Value"
+    },
+    "certifications": {
+      "eyebrow": "Credentials",
+      "title": "Certified. Trusted.",
+      "highlight": "Government-Approved.",
+      "paragraph": "Every registration, license, and certification we hold is current and verifiable. We operate with full transparency across all government and regulatory frameworks in Nepal.",
+      "clients_label": "Government Bodies & Clients We Work With"
+    },
+    "contact": {
+      "eyebrow": "Get In Touch",
+      "title": "Let's Build",
+      "highlight": "Together.",
+      "paragraph": "Whether you have a government tender to discuss, a project to bid on, or simply want to understand our capabilities — our team responds within one business day."
+    }
   },
   "services": [
     { "name": "Building Construction", "description": "Government offices, schools, hospitals, and institutional structures built to last across Nepal's demanding conditions.", "tags": ["Structural Works", "Foundation Eng.", "Finishing & MEP"] },
@@ -107,11 +161,75 @@
     "address": "Kathmandu Metropolitan City, Bagmati Province, Nepal",
     "phone": "+977-01-XXXXXXX",
     "email": "info@aadishakti.com.np",
-    "hours": "Sun – Fri: 9:00 AM – 5:00 PM"
+    "hours": "Sun – Fri: 9:00 AM – 5:00 PM",
+    "details": [
+      { "icon": "📍", "label": "Office Address", "field": "address" },
+      { "icon": "📞", "label": "Phone", "field": "phone" },
+      { "icon": "✉️", "label": "Email", "field": "email" },
+      { "icon": "🕐", "label": "Office Hours", "field": "hours" }
+    ],
+    "form": {
+      "full_name": "Full Name",
+      "full_name_placeholder": "Ram Sharma",
+      "organization": "Organization",
+      "organization_placeholder": "Ministry / Dept. / Firm",
+      "email": "Email",
+      "email_placeholder": "you@email.com",
+      "project_type": "Project Type",
+      "project_type_placeholder": "Select type…",
+      "project_type_options": [
+        "Road Construction",
+        "Bridge Works",
+        "Building Construction",
+        "Hydropower Civil Works",
+        "Retaining Walls & Drainage",
+        "Project Management",
+        "Other"
+      ],
+      "message": "Message",
+      "message_placeholder": "Describe your project, tender reference, or inquiry…",
+      "submit": "Send Enquiry →",
+      "success_title": "Enquiry Sent",
+      "success_message": "Thank you. Our team will respond within one business day."
+    }
   },
   "footer": {
     "description": "Building Nepal's infrastructure with precision, integrity, and local expertise since 2006.",
     "badges": ["GoN Registered", "ISO 9001", "Class 'A'"],
-    "copyright": "© 2026 Aadi Shakti Nirman Sewa Pvt. Ltd. All rights reserved."
+    "copyright": "© 2026 Aadi Shakti Nirman Sewa Pvt. Ltd. All rights reserved.",
+    "columns": [
+      {
+        "title": "Company",
+        "links": [
+          { "label": "About Us", "href": "#about" },
+          { "label": "Certifications", "href": "#certs" },
+          { "label": "Our Team", "href": "#" },
+          { "label": "CSR", "href": "#" }
+        ]
+      },
+      {
+        "title": "Services",
+        "links": [
+          { "label": "Road Construction", "href": "#services" },
+          { "label": "Bridge Works", "href": "#services" },
+          { "label": "Buildings", "href": "#services" },
+          { "label": "Hydropower", "href": "#services" }
+        ]
+      },
+      {
+        "title": "Connect",
+        "links": [
+          { "label": "Projects", "href": "#projects" },
+          { "label": "Tenders", "href": "#" },
+          { "label": "Contact", "href": "#contact" },
+          { "label": "Careers", "href": "#" }
+        ]
+      }
+    ],
+    "legal_links": [
+      { "label": "Privacy Policy", "href": "#" },
+      { "label": "Terms", "href": "#" },
+      { "label": "Sitemap", "href": "#" }
+    ]
   }
 }
